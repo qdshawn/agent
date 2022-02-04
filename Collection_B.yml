@@ -5,24 +5,24 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: cxkv2.xyz, server: 6.3.2.2, port: 443, type: vmess, uuid: 5d393d49-027c-3c58-a2ec-c2315fe7d0a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇷🇺 俄罗斯1-三网优化, server: 1222ru.fans8.xyz, port: 80, type: vmess, uuid: 5d393d49-027c-3c58-a2ec-c2315fe7d0a0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1222ru.fans8.xyz}}}
-  - {name: 🇷🇺 俄罗斯2-三网优化, server: 0118ru.fans8.xyz, port: 80, type: vmess, uuid: 5d393d49-027c-3c58-a2ec-c2315fe7d0a0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0118ru.fans8.xyz}}}
-  - {name: 🇨🇳 台湾1-三网优化, server: 128tw01.fans8.xyz, port: 80, type: vmess, uuid: 5d393d49-027c-3c58-a2ec-c2315fe7d0a0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 128tw01.fans8.xyz}}}
-  - {name: 🇨🇳 台湾2-三网优化, server: 1207tw.fans8.xyz, port: 80, type: vmess, uuid: 5d393d49-027c-3c58-a2ec-c2315fe7d0a0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1207tw.fans8.xyz}}}
-  - {name: 🇨🇳 台湾3-三网优化, server: 128tw02.fans8.xyz, port: 80, type: vmess, uuid: 5d393d49-027c-3c58-a2ec-c2315fe7d0a0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 128tw02.fans8.xyz}}}
-  - {name: 🇺🇸 美国1-三网优化, server: 1222us.fans8.xyz, port: 80, type: vmess, uuid: 5d393d49-027c-3c58-a2ec-c2315fe7d0a0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1222us.fans8.xyz}}}
-  - {name: 🇺🇸 美国2-三网优化, server: 0122us.fans8.xyz, port: 80, type: vmess, uuid: 5d393d49-027c-3c58-a2ec-c2315fe7d0a0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0122us.fans8.xyz}}}
-  - {name: 🇵🇭 菲律宾马尼拉1-三网优化, server: 1222mnl.fans8.xyz, port: 80, type: vmess, uuid: 5d393d49-027c-3c58-a2ec-c2315fe7d0a0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1222mnl.fans8.xyz}}}
-  - {name: 🇰🇷 韩国1-三网优化, server: 1211kr.fans8.xyz, port: 80, type: vmess, uuid: 5d393d49-027c-3c58-a2ec-c2315fe7d0a0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1211kr.fans8.xyz}}}
-  - {name: 🇰🇷 韩国8-三网优化, server: 1031kr.fans8.xyz, port: 80, type: vmess, uuid: 5d393d49-027c-3c58-a2ec-c2315fe7d0a0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1031kr.fans8.xyz}}}
-  - {name: 🇭🇰 香港1-三网优化, server: 0107hk.fans8.xyz, port: 80, type: vmess, uuid: 5d393d49-027c-3c58-a2ec-c2315fe7d0a0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0107hk.fans8.xyz}}}
-  - {name: 🇭🇰 香港2-三网优化, server: 0118hk.fans8.xyz, port: 80, type: vmess, uuid: 5d393d49-027c-3c58-a2ec-c2315fe7d0a0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0118hk.fans8.xyz}}}
-  - {name: 🇭🇰 香港3-三网优化, server: 1222hk3.fans8.xyz, port: 80, type: vmess, uuid: 5d393d49-027c-3c58-a2ec-c2315fe7d0a0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1222hk3.fans8.xyz}}}
-  - {name: 🇭🇰 香港5-三网优化, server: 128hk01.fans8.xyz, port: 80, type: vmess, uuid: 5d393d49-027c-3c58-a2ec-c2315fe7d0a0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 128hk01.fans8.xyz}}}
-  - {name: 🇭🇰 香港7-三网优化, server: 1211hk1.fans8.xyz, port: 80, type: vmess, uuid: 5d393d49-027c-3c58-a2ec-c2315fe7d0a0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1211hk1.fans8.xyz}}}
-  - {name: 🇭🇰 香港8-三网优化, server: 1229hk.fans8.xyz, port: 80, type: vmess, uuid: 5d393d49-027c-3c58-a2ec-c2315fe7d0a0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1229hk.fans8.xyz}}}
-  - {name: 🇭🇰 香港9-三网优化, server: 128hk8.fans8.xyz, port: 80, type: vmess, uuid: 5d393d49-027c-3c58-a2ec-c2315fe7d0a0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 128hk8.fans8.xyz}}}
+  - {name: cxkv2.xyz, server: 6.3.2.2, port: 443, type: vmess, uuid: c5383e2d-fd0d-391b-a8e2-238bbfd15937, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇷🇺 俄罗斯1-三网优化, server: 1222ru.fans8.xyz, port: 80, type: vmess, uuid: c5383e2d-fd0d-391b-a8e2-238bbfd15937, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1222ru.fans8.xyz}}}
+  - {name: 🇷🇺 俄罗斯2-三网优化, server: 0118ru.fans8.xyz, port: 80, type: vmess, uuid: c5383e2d-fd0d-391b-a8e2-238bbfd15937, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0118ru.fans8.xyz}}}
+  - {name: 🇨🇳 台湾1-三网优化, server: 128tw01.fans8.xyz, port: 80, type: vmess, uuid: c5383e2d-fd0d-391b-a8e2-238bbfd15937, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 128tw01.fans8.xyz}}}
+  - {name: 🇨🇳 台湾2-三网优化, server: 1207tw.fans8.xyz, port: 80, type: vmess, uuid: c5383e2d-fd0d-391b-a8e2-238bbfd15937, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1207tw.fans8.xyz}}}
+  - {name: 🇨🇳 台湾3-三网优化, server: 128tw02.fans8.xyz, port: 80, type: vmess, uuid: c5383e2d-fd0d-391b-a8e2-238bbfd15937, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 128tw02.fans8.xyz}}}
+  - {name: 🇸🇬 新加坡1-三网优化, server: 0202sg.fans8.xyz, port: 80, type: vmess, uuid: c5383e2d-fd0d-391b-a8e2-238bbfd15937, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0202sg.fans8.xyz}}}
+  - {name: 🇺🇸 美国1-三网优化, server: 1222us.fans8.xyz, port: 80, type: vmess, uuid: c5383e2d-fd0d-391b-a8e2-238bbfd15937, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1222us.fans8.xyz}}}
+  - {name: 🇺🇸 美国2-三网优化, server: 0122us.fans8.xyz, port: 80, type: vmess, uuid: c5383e2d-fd0d-391b-a8e2-238bbfd15937, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0122us.fans8.xyz}}}
+  - {name: 🇵🇭 菲律宾马尼拉1-三网优化, server: 1222mnl.fans8.xyz, port: 80, type: vmess, uuid: c5383e2d-fd0d-391b-a8e2-238bbfd15937, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1222mnl.fans8.xyz}}}
+  - {name: 🇰🇷 韩国1-三网优化, server: 1211kr.fans8.xyz, port: 80, type: vmess, uuid: c5383e2d-fd0d-391b-a8e2-238bbfd15937, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1211kr.fans8.xyz}}}
+  - {name: 🇰🇷 韩国8-三网优化, server: 1031kr.fans8.xyz, port: 80, type: vmess, uuid: c5383e2d-fd0d-391b-a8e2-238bbfd15937, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1031kr.fans8.xyz}}}
+  - {name: 🇭🇰 香港1-三网优化, server: 0107hk.fans8.xyz, port: 80, type: vmess, uuid: c5383e2d-fd0d-391b-a8e2-238bbfd15937, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0107hk.fans8.xyz}}}
+  - {name: 🇭🇰 香港5-三网优化, server: 128hk01.fans8.xyz, port: 80, type: vmess, uuid: c5383e2d-fd0d-391b-a8e2-238bbfd15937, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 128hk01.fans8.xyz}}}
+  - {name: 🇭🇰 香港6-三网优化, server: 0202hk.fans8.xyz, port: 80, type: vmess, uuid: c5383e2d-fd0d-391b-a8e2-238bbfd15937, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0202hk.fans8.xyz}}}
+  - {name: 🇭🇰 香港7-三网优化, server: 1211hk1.fans8.xyz, port: 80, type: vmess, uuid: c5383e2d-fd0d-391b-a8e2-238bbfd15937, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1211hk1.fans8.xyz}}}
+  - {name: 🇭🇰 香港8-三网优化, server: 1229hk.fans8.xyz, port: 80, type: vmess, uuid: c5383e2d-fd0d-391b-a8e2-238bbfd15937, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1229hk.fans8.xyz}}}
+  - {name: 🇭🇰 香港9-三网优化, server: 128hk8.fans8.xyz, port: 80, type: vmess, uuid: c5383e2d-fd0d-391b-a8e2-238bbfd15937, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 128hk8.fans8.xyz}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -35,15 +35,15 @@ proxy-groups:
       - 🇨🇳 台湾1-三网优化
       - 🇨🇳 台湾2-三网优化
       - 🇨🇳 台湾3-三网优化
+      - 🇸🇬 新加坡1-三网优化
       - 🇺🇸 美国1-三网优化
       - 🇺🇸 美国2-三网优化
       - 🇵🇭 菲律宾马尼拉1-三网优化
       - 🇰🇷 韩国1-三网优化
       - 🇰🇷 韩国8-三网优化
       - 🇭🇰 香港1-三网优化
-      - 🇭🇰 香港2-三网优化
-      - 🇭🇰 香港3-三网优化
       - 🇭🇰 香港5-三网优化
+      - 🇭🇰 香港6-三网优化
       - 🇭🇰 香港7-三网优化
       - 🇭🇰 香港8-三网优化
       - 🇭🇰 香港9-三网优化
@@ -58,15 +58,15 @@ proxy-groups:
       - 🇨🇳 台湾1-三网优化
       - 🇨🇳 台湾2-三网优化
       - 🇨🇳 台湾3-三网优化
+      - 🇸🇬 新加坡1-三网优化
       - 🇺🇸 美国1-三网优化
       - 🇺🇸 美国2-三网优化
       - 🇵🇭 菲律宾马尼拉1-三网优化
       - 🇰🇷 韩国1-三网优化
       - 🇰🇷 韩国8-三网优化
       - 🇭🇰 香港1-三网优化
-      - 🇭🇰 香港2-三网优化
-      - 🇭🇰 香港3-三网优化
       - 🇭🇰 香港5-三网优化
+      - 🇭🇰 香港6-三网优化
       - 🇭🇰 香港7-三网优化
       - 🇭🇰 香港8-三网优化
       - 🇭🇰 香港9-三网优化
@@ -82,15 +82,15 @@ proxy-groups:
       - 🇨🇳 台湾1-三网优化
       - 🇨🇳 台湾2-三网优化
       - 🇨🇳 台湾3-三网优化
+      - 🇸🇬 新加坡1-三网优化
       - 🇺🇸 美国1-三网优化
       - 🇺🇸 美国2-三网优化
       - 🇵🇭 菲律宾马尼拉1-三网优化
       - 🇰🇷 韩国1-三网优化
       - 🇰🇷 韩国8-三网优化
       - 🇭🇰 香港1-三网优化
-      - 🇭🇰 香港2-三网优化
-      - 🇭🇰 香港3-三网优化
       - 🇭🇰 香港5-三网优化
+      - 🇭🇰 香港6-三网优化
       - 🇭🇰 香港7-三网优化
       - 🇭🇰 香港8-三网优化
       - 🇭🇰 香港9-三网优化
@@ -105,15 +105,15 @@ proxy-groups:
       - 🇨🇳 台湾1-三网优化
       - 🇨🇳 台湾2-三网优化
       - 🇨🇳 台湾3-三网优化
+      - 🇸🇬 新加坡1-三网优化
       - 🇺🇸 美国1-三网优化
       - 🇺🇸 美国2-三网优化
       - 🇵🇭 菲律宾马尼拉1-三网优化
       - 🇰🇷 韩国1-三网优化
       - 🇰🇷 韩国8-三网优化
       - 🇭🇰 香港1-三网优化
-      - 🇭🇰 香港2-三网优化
-      - 🇭🇰 香港3-三网优化
       - 🇭🇰 香港5-三网优化
+      - 🇭🇰 香港6-三网优化
       - 🇭🇰 香港7-三网优化
       - 🇭🇰 香港8-三网优化
       - 🇭🇰 香港9-三网优化
@@ -128,15 +128,15 @@ proxy-groups:
       - 🇨🇳 台湾1-三网优化
       - 🇨🇳 台湾2-三网优化
       - 🇨🇳 台湾3-三网优化
+      - 🇸🇬 新加坡1-三网优化
       - 🇺🇸 美国1-三网优化
       - 🇺🇸 美国2-三网优化
       - 🇵🇭 菲律宾马尼拉1-三网优化
       - 🇰🇷 韩国1-三网优化
       - 🇰🇷 韩国8-三网优化
       - 🇭🇰 香港1-三网优化
-      - 🇭🇰 香港2-三网优化
-      - 🇭🇰 香港3-三网优化
       - 🇭🇰 香港5-三网优化
+      - 🇭🇰 香港6-三网优化
       - 🇭🇰 香港7-三网优化
       - 🇭🇰 香港8-三网优化
       - 🇭🇰 香港9-三网优化
@@ -151,15 +151,15 @@ proxy-groups:
       - 🇨🇳 台湾1-三网优化
       - 🇨🇳 台湾2-三网优化
       - 🇨🇳 台湾3-三网优化
+      - 🇸🇬 新加坡1-三网优化
       - 🇺🇸 美国1-三网优化
       - 🇺🇸 美国2-三网优化
       - 🇵🇭 菲律宾马尼拉1-三网优化
       - 🇰🇷 韩国1-三网优化
       - 🇰🇷 韩国8-三网优化
       - 🇭🇰 香港1-三网优化
-      - 🇭🇰 香港2-三网优化
-      - 🇭🇰 香港3-三网优化
       - 🇭🇰 香港5-三网优化
+      - 🇭🇰 香港6-三网优化
       - 🇭🇰 香港7-三网优化
       - 🇭🇰 香港8-三网优化
       - 🇭🇰 香港9-三网优化
@@ -196,15 +196,15 @@ proxy-groups:
       - 🇨🇳 台湾1-三网优化
       - 🇨🇳 台湾2-三网优化
       - 🇨🇳 台湾3-三网优化
+      - 🇸🇬 新加坡1-三网优化
       - 🇺🇸 美国1-三网优化
       - 🇺🇸 美国2-三网优化
       - 🇵🇭 菲律宾马尼拉1-三网优化
       - 🇰🇷 韩国1-三网优化
       - 🇰🇷 韩国8-三网优化
       - 🇭🇰 香港1-三网优化
-      - 🇭🇰 香港2-三网优化
-      - 🇭🇰 香港3-三网优化
       - 🇭🇰 香港5-三网优化
+      - 🇭🇰 香港6-三网优化
       - 🇭🇰 香港7-三网优化
       - 🇭🇰 香港8-三网优化
       - 🇭🇰 香港9-三网优化
