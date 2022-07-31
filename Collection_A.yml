@@ -5,42 +5,96 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: YouTube梦歌|Netflix_1, server: gzyd2.52147.top, port: 30130, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com}
-  - {name: YouTube梦歌|Netflix_2, server: gzyd1.52147.top, port: 30120, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com}
-  - {name: YouTube梦歌|Netflix_3, server: hnyd.52147.top, port: 30130, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com}
-  - {name: YouTube梦歌|Netflix_4, server: gzyd1.52147.top, port: 30130, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com}
-  - {name: YouTube梦歌|Netflix_5, server: gzyd1.52147.top, port: 30030, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com}
-  - {name: YouTube梦歌|Netflix_6, server: hnyd.52147.top, port: 30080, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com}
-  - {name: YouTube梦歌|Netflix_7, server: hnyd.52147.top, port: 30030, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com}
-  - {name: YouTube梦歌|Netflix_8, server: gzyd1.52147.top, port: 30080, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com}
-  - {name: YouTube梦歌|Netflix_9, server: gzyd2.52147.top, port: 30080, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com}
-  - {name: YouTube梦歌|Netflix_10, server: 20.205.233.12, port: 443, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com}
-  - {name: YouTube梦歌|Netflix_11, server: hinet.52147.top, port: 443, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com}
-  - {name: YouTube梦歌|Netflix_12, server: gzyd2.52147.top, port: 30030, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com}
-  - {name: YouTube梦歌|Netflix_13, server: 103.173.255.127, port: 443, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com}
-  - {name: YouTube梦歌|Netflix_14, server: 45.88.148.234, port: 443, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com}
-  - {name: YouTube梦歌|Netflix_15, server: 103.173.255.228, port: 443, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com}
-  - {name: YouTube梦歌|Netflix_16, server: 45.82.253.234, port: 443, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com}
-  - {name: YouTube梦歌|Netflix_17, server: 157.120.35.234, port: 443, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com}
-  - {name: YouTube梦歌|Netflix_18, server: 103.173.255.21, port: 443, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com}
-  - {name: YouTube梦歌|Netflix_19, server: gzyd2.52147.top, port: 30130, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com}
-  - {name: YouTube梦歌|Netflix_20, server: gzyd1.52147.top, port: 30120, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com}
-  - {name: YouTube梦歌|Netflix_21, server: hnyd.52147.top, port: 30130, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com}
-  - {name: YouTube梦歌|Netflix_22, server: gzyd1.52147.top, port: 30130, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com}
-  - {name: YouTube梦歌|Netflix_23, server: gzyd1.52147.top, port: 30030, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com}
-  - {name: YouTube梦歌|Netflix_24, server: hnyd.52147.top, port: 30080, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com}
-  - {name: YouTube梦歌|Netflix_25, server: hnyd.52147.top, port: 30030, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com}
-  - {name: YouTube梦歌|Netflix_26, server: gzyd1.52147.top, port: 30080, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com}
-  - {name: YouTube梦歌|Netflix_27, server: gzyd2.52147.top, port: 30080, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com}
-  - {name: YouTube梦歌|Netflix_28, server: 20.205.233.12, port: 443, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com}
-  - {name: YouTube梦歌|Netflix_29, server: hinet.52147.top, port: 443, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com}
-  - {name: YouTube梦歌|Netflix_30, server: gzyd2.52147.top, port: 30030, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com}
-  - {name: YouTube梦歌|Netflix_31, server: 103.173.255.127, port: 443, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com}
-  - {name: YouTube梦歌|Netflix_32, server: 45.88.148.234, port: 443, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com}
-  - {name: YouTube梦歌|Netflix_33, server: 103.173.255.228, port: 443, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com}
-  - {name: YouTube梦歌|Netflix_34, server: 45.82.253.234, port: 443, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com}
-  - {name: YouTube梦歌|Netflix_35, server: 157.120.35.234, port: 443, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com}
-  - {name: YouTube梦歌|Netflix_36, server: 103.173.255.21, port: 443, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com}
+  - {name: YouTube梦歌|Netflix_1, server: 127.0.0.1, port: 10086, type: ss, cipher: chacha20-ietf, password: !<str> 1}
+  - {name: YouTube梦歌|Netflix_2, server: 127.0.0.1, port: 10086, type: ss, cipher: chacha20-ietf, password: x}
+  - {name: YouTube梦歌|Netflix_3, server: cmrelay02.downsite.xyz, port: 2700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0626E259zpG, obfs-param: ZDllMjQ1MDkxNi5taWNyb3NvZnQuY29t}
+  - {name: YouTube梦歌|Netflix_4, server: cmrelay02.downsite.xyz, port: 2701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0626E259zpG, obfs-param: ZDllMjQ1MDkxNi5taWNyb3NvZnQuY29t}
+  - {name: YouTube梦歌|Netflix_5, server: cmrelay02.downsite.xyz, port: 2702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0626E259zpG, obfs-param: ZDllMjQ1MDkxNi5taWNyb3NvZnQuY29t}
+  - {name: YouTube梦歌|Netflix_6, server: cmrelay02.downsite.xyz, port: 2703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0626E259zpG, obfs-param: ZDllMjQ1MDkxNi5taWNyb3NvZnQuY29t}
+  - {name: YouTube梦歌|Netflix_7, server: cmrelay02.downsite.xyz, port: 2704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0626E259zpG, obfs-param: ZDllMjQ1MDkxNi5taWNyb3NvZnQuY29t}
+  - {name: YouTube梦歌|Netflix_8, server: cmrelay02.downsite.xyz, port: 2705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0626E259zpG, obfs-param: ZDllMjQ1MDkxNi5taWNyb3NvZnQuY29t}
+  - {name: YouTube梦歌|Netflix_9, server: cmrelay02.downsite.xyz, port: 2706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0626E259zpG, obfs-param: ZDllMjQ1MDkxNi5taWNyb3NvZnQuY29t}
+  - {name: YouTube梦歌|Netflix_10, server: cmrelay02.downsite.xyz, port: 2707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0626E259zpG, obfs-param: ZDllMjQ1MDkxNi5taWNyb3NvZnQuY29t}
+  - {name: YouTube梦歌|Netflix_11, server: cmrelay02.downsite.xyz, port: 2708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0626E259zpG, obfs-param: ZDllMjQ1MDkxNi5taWNyb3NvZnQuY29t}
+  - {name: YouTube梦歌|Netflix_12, server: cmrelay02.downsite.xyz, port: 2709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0626E259zpG, obfs-param: ZDllMjQ1MDkxNi5taWNyb3NvZnQuY29t}
+  - {name: YouTube梦歌|Netflix_13, server: cmrelay01.downsite.xyz, port: 3700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0626E259zpG, obfs-param: ZDllMjQ1MDkxNi5taWNyb3NvZnQuY29t}
+  - {name: YouTube梦歌|Netflix_14, server: cmrelay01.downsite.xyz, port: 3701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0626E259zpG, obfs-param: ZDllMjQ1MDkxNi5taWNyb3NvZnQuY29t}
+  - {name: YouTube梦歌|Netflix_15, server: cmrelay01.downsite.xyz, port: 3702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0626E259zpG, obfs-param: ZDllMjQ1MDkxNi5taWNyb3NvZnQuY29t}
+  - {name: YouTube梦歌|Netflix_16, server: cmrelay01.downsite.xyz, port: 3703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0626E259zpG, obfs-param: ZDllMjQ1MDkxNi5taWNyb3NvZnQuY29t}
+  - {name: YouTube梦歌|Netflix_17, server: cmrelay01.downsite.xyz, port: 3704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0626E259zpG, obfs-param: ZDllMjQ1MDkxNi5taWNyb3NvZnQuY29t}
+  - {name: YouTube梦歌|Netflix_18, server: cmrelay01.downsite.xyz, port: 3705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0626E259zpG, obfs-param: ZDllMjQ1MDkxNi5taWNyb3NvZnQuY29t}
+  - {name: YouTube梦歌|Netflix_19, server: cmrelay01.downsite.xyz, port: 3706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0626E259zpG, obfs-param: ZDllMjQ1MDkxNi5taWNyb3NvZnQuY29t}
+  - {name: YouTube梦歌|Netflix_20, server: cmrelay01.downsite.xyz, port: 3707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0626E259zpG, obfs-param: ZDllMjQ1MDkxNi5taWNyb3NvZnQuY29t}
+  - {name: YouTube梦歌|Netflix_21, server: cmrelay01.downsite.xyz, port: 3708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0626E259zpG, obfs-param: ZDllMjQ1MDkxNi5taWNyb3NvZnQuY29t}
+  - {name: YouTube梦歌|Netflix_22, server: cmrelay01.downsite.xyz, port: 3709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0626E259zpG, obfs-param: ZDllMjQ1MDkxNi5taWNyb3NvZnQuY29t}
+  - {name: YouTube梦歌|Netflix_23, server: cmrelay01.downsite.xyz, port: 6700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0626E259zpG, obfs-param: ZDllMjQ1MDkxNi5taWNyb3NvZnQuY29t}
+  - {name: YouTube梦歌|Netflix_24, server: cmrelay01.downsite.xyz, port: 6701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0626E259zpG, obfs-param: ZDllMjQ1MDkxNi5taWNyb3NvZnQuY29t}
+  - {name: YouTube梦歌|Netflix_25, server: cmrelay01.downsite.xyz, port: 6702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0626E259zpG, obfs-param: ZDllMjQ1MDkxNi5taWNyb3NvZnQuY29t}
+  - {name: YouTube梦歌|Netflix_26, server: cmrelay01.downsite.xyz, port: 6703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0626E259zpG, obfs-param: ZDllMjQ1MDkxNi5taWNyb3NvZnQuY29t}
+  - {name: YouTube梦歌|Netflix_27, server: cmrelay01.downsite.xyz, port: 6704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0626E259zpG, obfs-param: ZDllMjQ1MDkxNi5taWNyb3NvZnQuY29t}
+  - {name: YouTube梦歌|Netflix_28, server: cmrelay01.downsite.xyz, port: 6705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0626E259zpG, obfs-param: ZDllMjQ1MDkxNi5taWNyb3NvZnQuY29t}
+  - {name: YouTube梦歌|Netflix_29, server: cmrelay01.downsite.xyz, port: 6706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0626E259zpG, obfs-param: ZDllMjQ1MDkxNi5taWNyb3NvZnQuY29t}
+  - {name: YouTube梦歌|Netflix_30, server: cmrelay01.downsite.xyz, port: 6707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0626E259zpG, obfs-param: ZDllMjQ1MDkxNi5taWNyb3NvZnQuY29t}
+  - {name: YouTube梦歌|Netflix_31, server: cmrelay01.downsite.xyz, port: 6708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0626E259zpG, obfs-param: ZDllMjQ1MDkxNi5taWNyb3NvZnQuY29t}
+  - {name: YouTube梦歌|Netflix_32, server: cmrelay01.downsite.xyz, port: 6709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0626E259zpG, obfs-param: ZDllMjQ1MDkxNi5taWNyb3NvZnQuY29t}
+  - {name: YouTube梦歌|Netflix_33, server: cmrelay01.downsite.xyz, port: 5700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0626E259zpG, obfs-param: ZDllMjQ1MDkxNi5taWNyb3NvZnQuY29t}
+  - {name: YouTube梦歌|Netflix_34, server: cmrelay01.downsite.xyz, port: 5701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0626E259zpG, obfs-param: ZDllMjQ1MDkxNi5taWNyb3NvZnQuY29t}
+  - {name: YouTube梦歌|Netflix_35, server: cmrelay01.downsite.xyz, port: 5702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0626E259zpG, obfs-param: ZDllMjQ1MDkxNi5taWNyb3NvZnQuY29t}
+  - {name: YouTube梦歌|Netflix_36, server: cmrelay01.downsite.xyz, port: 5703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0626E259zpG, obfs-param: ZDllMjQ1MDkxNi5taWNyb3NvZnQuY29t}
+  - {name: YouTube梦歌|Netflix_37, server: cmrelay01.downsite.xyz, port: 5704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0626E259zpG, obfs-param: ZDllMjQ1MDkxNi5taWNyb3NvZnQuY29t}
+  - {name: YouTube梦歌|Netflix_38, server: cmrelay01.downsite.xyz, port: 5705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0626E259zpG, obfs-param: ZDllMjQ1MDkxNi5taWNyb3NvZnQuY29t}
+  - {name: YouTube梦歌|Netflix_39, server: cmrelay01.downsite.xyz, port: 7700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0626E259zpG, obfs-param: ZDllMjQ1MDkxNi5taWNyb3NvZnQuY29t}
+  - {name: YouTube梦歌|Netflix_40, server: cmrelay01.downsite.xyz, port: 7701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0626E259zpG, obfs-param: ZDllMjQ1MDkxNi5taWNyb3NvZnQuY29t}
+  - {name: YouTube梦歌|Netflix_41, server: cmrelay01.downsite.xyz, port: 7702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0626E259zpG, obfs-param: ZDllMjQ1MDkxNi5taWNyb3NvZnQuY29t}
+  - {name: YouTube梦歌|Netflix_42, server: cmrelay01.downsite.xyz, port: 7703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0626E259zpG, obfs-param: ZDllMjQ1MDkxNi5taWNyb3NvZnQuY29t}
+  - {name: YouTube梦歌|Netflix_43, server: cmrelay01.downsite.xyz, port: 7704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0626E259zpG, obfs-param: ZDllMjQ1MDkxNi5taWNyb3NvZnQuY29t}
+  - {name: YouTube梦歌|Netflix_44, server: cmrelay01.downsite.xyz, port: 7705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0626E259zpG, obfs-param: ZDllMjQ1MDkxNi5taWNyb3NvZnQuY29t}
+  - {name: YouTube梦歌|Netflix_45, server: cmrelay01.downsite.xyz, port: 7706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0626E259zpG, obfs-param: ZDllMjQ1MDkxNi5taWNyb3NvZnQuY29t}
+  - {name: YouTube梦歌|Netflix_46, server: cmrelay01.downsite.xyz, port: 7707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0626E259zpG, obfs-param: ZDllMjQ1MDkxNi5taWNyb3NvZnQuY29t}
+  - {name: YouTube梦歌|Netflix_47, server: cmrelay01.downsite.xyz, port: 7708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0626E259zpG, obfs-param: ZDllMjQ1MDkxNi5taWNyb3NvZnQuY29t}
+  - {name: YouTube梦歌|Netflix_48, server: cmrelay01.downsite.xyz, port: 7709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0626E259zpG, obfs-param: ZDllMjQ1MDkxNi5taWNyb3NvZnQuY29t}
+  - {name: YouTube梦歌|Netflix_49, server: dajbxtw.naikonode.top, port: 15501, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 4391:XsTIqjrr38WaEM5G, obfs-param: ODc4MGY0MzkxLm1pY3Jvc29mdC5jb20}
+  - {name: YouTube梦歌|Netflix_50, server: dajbxtw.naikonode.top, port: 15502, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 4391:XsTIqjrr38WaEM5G, obfs-param: ODc4MGY0MzkxLm1pY3Jvc29mdC5jb20}
+  - {name: YouTube梦歌|Netflix_51, server: dajbxtw.naikonode.top, port: 15503, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 4391:XsTIqjrr38WaEM5G, obfs-param: ODc4MGY0MzkxLm1pY3Jvc29mdC5jb20}
+  - {name: YouTube梦歌|Netflix_52, server: dajbxtw.naikonode.top, port: 15504, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 4391:XsTIqjrr38WaEM5G, obfs-param: ODc4MGY0MzkxLm1pY3Jvc29mdC5jb20}
+  - {name: YouTube梦歌|Netflix_53, server: dajbxtw.naikonode.top, port: 15505, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 4391:XsTIqjrr38WaEM5G, obfs-param: ODc4MGY0MzkxLm1pY3Jvc29mdC5jb20}
+  - {name: YouTube梦歌|Netflix_54, server: dajbxtw.naikonode.top, port: 15506, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 4391:XsTIqjrr38WaEM5G, obfs-param: ODc4MGY0MzkxLm1pY3Jvc29mdC5jb20}
+  - {name: YouTube梦歌|Netflix_55, server: dajbxtw.naikonode.top, port: 15507, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 4391:XsTIqjrr38WaEM5G, obfs-param: ODc4MGY0MzkxLm1pY3Jvc29mdC5jb20}
+  - {name: YouTube梦歌|Netflix_56, server: dajbxtw.naikonode.top, port: 15508, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 4391:XsTIqjrr38WaEM5G, obfs-param: ODc4MGY0MzkxLm1pY3Jvc29mdC5jb20}
+  - {name: YouTube梦歌|Netflix_57, server: dajbxsg.naikonode.top, port: 15401, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 4391:XsTIqjrr38WaEM5G, obfs-param: ODc4MGY0MzkxLm1pY3Jvc29mdC5jb20}
+  - {name: YouTube梦歌|Netflix_58, server: dajbxsg.naikonode.top, port: 15402, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 4391:XsTIqjrr38WaEM5G, obfs-param: ODc4MGY0MzkxLm1pY3Jvc29mdC5jb20}
+  - {name: YouTube梦歌|Netflix_59, server: dajbxsg.naikonode.top, port: 15403, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 4391:XsTIqjrr38WaEM5G, obfs-param: ODc4MGY0MzkxLm1pY3Jvc29mdC5jb20}
+  - {name: YouTube梦歌|Netflix_60, server: dajbxsg.naikonode.top, port: 15404, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 4391:XsTIqjrr38WaEM5G, obfs-param: ODc4MGY0MzkxLm1pY3Jvc29mdC5jb20}
+  - {name: YouTube梦歌|Netflix_61, server: dajbxsg.naikonode.top, port: 15405, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 4391:XsTIqjrr38WaEM5G, obfs-param: ODc4MGY0MzkxLm1pY3Jvc29mdC5jb20}
+  - {name: YouTube梦歌|Netflix_62, server: dajbxsg.naikonode.top, port: 15406, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 4391:XsTIqjrr38WaEM5G, obfs-param: ODc4MGY0MzkxLm1pY3Jvc29mdC5jb20}
+  - {name: YouTube梦歌|Netflix_63, server: dajbxsg.naikonode.top, port: 15407, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 4391:XsTIqjrr38WaEM5G, obfs-param: ODc4MGY0MzkxLm1pY3Jvc29mdC5jb20}
+  - {name: YouTube梦歌|Netflix_64, server: dajbxsg.naikonode.top, port: 15408, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 4391:XsTIqjrr38WaEM5G, obfs-param: ODc4MGY0MzkxLm1pY3Jvc29mdC5jb20}
+  - {name: YouTube梦歌|Netflix_65, server: dajbxjp.naikonode.top, port: 15201, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 4391:XsTIqjrr38WaEM5G, obfs-param: ODc4MGY0MzkxLm1pY3Jvc29mdC5jb20}
+  - {name: YouTube梦歌|Netflix_66, server: dajbxjp.naikonode.top, port: 15202, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 4391:XsTIqjrr38WaEM5G, obfs-param: ODc4MGY0MzkxLm1pY3Jvc29mdC5jb20}
+  - {name: YouTube梦歌|Netflix_67, server: dajbxjp.naikonode.top, port: 15203, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 4391:XsTIqjrr38WaEM5G, obfs-param: ODc4MGY0MzkxLm1pY3Jvc29mdC5jb20}
+  - {name: YouTube梦歌|Netflix_68, server: dajbxjp.naikonode.top, port: 15204, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 4391:XsTIqjrr38WaEM5G, obfs-param: ODc4MGY0MzkxLm1pY3Jvc29mdC5jb20}
+  - {name: YouTube梦歌|Netflix_69, server: dajbxjp.naikonode.top, port: 15205, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 4391:XsTIqjrr38WaEM5G, obfs-param: ODc4MGY0MzkxLm1pY3Jvc29mdC5jb20}
+  - {name: YouTube梦歌|Netflix_70, server: dajbxjp.naikonode.top, port: 15206, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 4391:XsTIqjrr38WaEM5G, obfs-param: ODc4MGY0MzkxLm1pY3Jvc29mdC5jb20}
+  - {name: YouTube梦歌|Netflix_71, server: dajbxjp.naikonode.top, port: 15207, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 4391:XsTIqjrr38WaEM5G, obfs-param: ODc4MGY0MzkxLm1pY3Jvc29mdC5jb20}
+  - {name: YouTube梦歌|Netflix_72, server: dajbxjp.naikonode.top, port: 15208, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 4391:XsTIqjrr38WaEM5G, obfs-param: ODc4MGY0MzkxLm1pY3Jvc29mdC5jb20}
+  - {name: YouTube梦歌|Netflix_73, server: dajbxus.naikonode.top, port: 15101, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 4391:XsTIqjrr38WaEM5G, obfs-param: ODc4MGY0MzkxLm1pY3Jvc29mdC5jb20}
+  - {name: YouTube梦歌|Netflix_74, server: dajbxus.naikonode.top, port: 15102, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 4391:XsTIqjrr38WaEM5G, obfs-param: ODc4MGY0MzkxLm1pY3Jvc29mdC5jb20}
+  - {name: YouTube梦歌|Netflix_75, server: dajbxus.naikonode.top, port: 15103, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 4391:XsTIqjrr38WaEM5G, obfs-param: ODc4MGY0MzkxLm1pY3Jvc29mdC5jb20}
+  - {name: YouTube梦歌|Netflix_76, server: dajbxus.naikonode.top, port: 15104, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 4391:XsTIqjrr38WaEM5G, obfs-param: ODc4MGY0MzkxLm1pY3Jvc29mdC5jb20}
+  - {name: YouTube梦歌|Netflix_77, server: dajbxus.naikonode.top, port: 15105, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 4391:XsTIqjrr38WaEM5G, obfs-param: ODc4MGY0MzkxLm1pY3Jvc29mdC5jb20}
+  - {name: YouTube梦歌|Netflix_78, server: dajbxus.naikonode.top, port: 15106, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 4391:XsTIqjrr38WaEM5G, obfs-param: ODc4MGY0MzkxLm1pY3Jvc29mdC5jb20}
+  - {name: YouTube梦歌|Netflix_79, server: dajbxus.naikonode.top, port: 15107, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 4391:XsTIqjrr38WaEM5G, obfs-param: ODc4MGY0MzkxLm1pY3Jvc29mdC5jb20}
+  - {name: YouTube梦歌|Netflix_80, server: dajbxus.naikonode.top, port: 15108, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 4391:XsTIqjrr38WaEM5G, obfs-param: ODc4MGY0MzkxLm1pY3Jvc29mdC5jb20}
+  - {name: YouTube梦歌|Netflix_81, server: dajbxhk.naikonode.top, port: 15001, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 4391:XsTIqjrr38WaEM5G, obfs-param: ODc4MGY0MzkxLm1pY3Jvc29mdC5jb20}
+  - {name: YouTube梦歌|Netflix_82, server: dajbxhk.naikonode.top, port: 15002, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 4391:XsTIqjrr38WaEM5G, obfs-param: ODc4MGY0MzkxLm1pY3Jvc29mdC5jb20}
+  - {name: YouTube梦歌|Netflix_83, server: dajbxhk.naikonode.top, port: 15003, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 4391:XsTIqjrr38WaEM5G, obfs-param: ODc4MGY0MzkxLm1pY3Jvc29mdC5jb20}
+  - {name: YouTube梦歌|Netflix_84, server: dajbxhk.naikonode.top, port: 15004, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 4391:XsTIqjrr38WaEM5G, obfs-param: ODc4MGY0MzkxLm1pY3Jvc29mdC5jb20}
+  - {name: YouTube梦歌|Netflix_85, server: dajbxhk.naikonode.top, port: 15005, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 4391:XsTIqjrr38WaEM5G, obfs-param: ODc4MGY0MzkxLm1pY3Jvc29mdC5jb20}
+  - {name: YouTube梦歌|Netflix_86, server: dajbxhk.naikonode.top, port: 15006, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 4391:XsTIqjrr38WaEM5G, obfs-param: ODc4MGY0MzkxLm1pY3Jvc29mdC5jb20}
+  - {name: YouTube梦歌|Netflix_87, server: dajbxhk.naikonode.top, port: 15007, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 4391:XsTIqjrr38WaEM5G, obfs-param: ODc4MGY0MzkxLm1pY3Jvc29mdC5jb20}
+  - {name: YouTube梦歌|Netflix_88, server: dajbxhk.naikonode.top, port: 15008, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 4391:XsTIqjrr38WaEM5G, obfs-param: ODc4MGY0MzkxLm1pY3Jvc29mdC5jb20}
+  - {name: YouTube梦歌|Netflix_89, server: dajbxhk.naikonode.top, port: 15009, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 4391:XsTIqjrr38WaEM5G, obfs-param: ODc4MGY0MzkxLm1pY3Jvc29mdC5jb20}
+  - {name: YouTube梦歌|Netflix_90, server: dajbxhk.naikonode.top, port: 15010, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 4391:XsTIqjrr38WaEM5G, obfs-param: ODc4MGY0MzkxLm1pY3Jvc29mdC5jb20}
 proxy-groups:
   - name: 🌐 Moon节点选择
     type: select
@@ -83,6 +137,60 @@ proxy-groups:
       - YouTube梦歌|Netflix_34
       - YouTube梦歌|Netflix_35
       - YouTube梦歌|Netflix_36
+      - YouTube梦歌|Netflix_37
+      - YouTube梦歌|Netflix_38
+      - YouTube梦歌|Netflix_39
+      - YouTube梦歌|Netflix_40
+      - YouTube梦歌|Netflix_41
+      - YouTube梦歌|Netflix_42
+      - YouTube梦歌|Netflix_43
+      - YouTube梦歌|Netflix_44
+      - YouTube梦歌|Netflix_45
+      - YouTube梦歌|Netflix_46
+      - YouTube梦歌|Netflix_47
+      - YouTube梦歌|Netflix_48
+      - YouTube梦歌|Netflix_49
+      - YouTube梦歌|Netflix_50
+      - YouTube梦歌|Netflix_51
+      - YouTube梦歌|Netflix_52
+      - YouTube梦歌|Netflix_53
+      - YouTube梦歌|Netflix_54
+      - YouTube梦歌|Netflix_55
+      - YouTube梦歌|Netflix_56
+      - YouTube梦歌|Netflix_57
+      - YouTube梦歌|Netflix_58
+      - YouTube梦歌|Netflix_59
+      - YouTube梦歌|Netflix_60
+      - YouTube梦歌|Netflix_61
+      - YouTube梦歌|Netflix_62
+      - YouTube梦歌|Netflix_63
+      - YouTube梦歌|Netflix_64
+      - YouTube梦歌|Netflix_65
+      - YouTube梦歌|Netflix_66
+      - YouTube梦歌|Netflix_67
+      - YouTube梦歌|Netflix_68
+      - YouTube梦歌|Netflix_69
+      - YouTube梦歌|Netflix_70
+      - YouTube梦歌|Netflix_71
+      - YouTube梦歌|Netflix_72
+      - YouTube梦歌|Netflix_73
+      - YouTube梦歌|Netflix_74
+      - YouTube梦歌|Netflix_75
+      - YouTube梦歌|Netflix_76
+      - YouTube梦歌|Netflix_77
+      - YouTube梦歌|Netflix_78
+      - YouTube梦歌|Netflix_79
+      - YouTube梦歌|Netflix_80
+      - YouTube梦歌|Netflix_81
+      - YouTube梦歌|Netflix_82
+      - YouTube梦歌|Netflix_83
+      - YouTube梦歌|Netflix_84
+      - YouTube梦歌|Netflix_85
+      - YouTube梦歌|Netflix_86
+      - YouTube梦歌|Netflix_87
+      - YouTube梦歌|Netflix_88
+      - YouTube梦歌|Netflix_89
+      - YouTube梦歌|Netflix_90
   - name: ☁️ Domestic
     type: select
     proxies:
@@ -135,6 +243,60 @@ proxy-groups:
       - YouTube梦歌|Netflix_34
       - YouTube梦歌|Netflix_35
       - YouTube梦歌|Netflix_36
+      - YouTube梦歌|Netflix_37
+      - YouTube梦歌|Netflix_38
+      - YouTube梦歌|Netflix_39
+      - YouTube梦歌|Netflix_40
+      - YouTube梦歌|Netflix_41
+      - YouTube梦歌|Netflix_42
+      - YouTube梦歌|Netflix_43
+      - YouTube梦歌|Netflix_44
+      - YouTube梦歌|Netflix_45
+      - YouTube梦歌|Netflix_46
+      - YouTube梦歌|Netflix_47
+      - YouTube梦歌|Netflix_48
+      - YouTube梦歌|Netflix_49
+      - YouTube梦歌|Netflix_50
+      - YouTube梦歌|Netflix_51
+      - YouTube梦歌|Netflix_52
+      - YouTube梦歌|Netflix_53
+      - YouTube梦歌|Netflix_54
+      - YouTube梦歌|Netflix_55
+      - YouTube梦歌|Netflix_56
+      - YouTube梦歌|Netflix_57
+      - YouTube梦歌|Netflix_58
+      - YouTube梦歌|Netflix_59
+      - YouTube梦歌|Netflix_60
+      - YouTube梦歌|Netflix_61
+      - YouTube梦歌|Netflix_62
+      - YouTube梦歌|Netflix_63
+      - YouTube梦歌|Netflix_64
+      - YouTube梦歌|Netflix_65
+      - YouTube梦歌|Netflix_66
+      - YouTube梦歌|Netflix_67
+      - YouTube梦歌|Netflix_68
+      - YouTube梦歌|Netflix_69
+      - YouTube梦歌|Netflix_70
+      - YouTube梦歌|Netflix_71
+      - YouTube梦歌|Netflix_72
+      - YouTube梦歌|Netflix_73
+      - YouTube梦歌|Netflix_74
+      - YouTube梦歌|Netflix_75
+      - YouTube梦歌|Netflix_76
+      - YouTube梦歌|Netflix_77
+      - YouTube梦歌|Netflix_78
+      - YouTube梦歌|Netflix_79
+      - YouTube梦歌|Netflix_80
+      - YouTube梦歌|Netflix_81
+      - YouTube梦歌|Netflix_82
+      - YouTube梦歌|Netflix_83
+      - YouTube梦歌|Netflix_84
+      - YouTube梦歌|Netflix_85
+      - YouTube梦歌|Netflix_86
+      - YouTube梦歌|Netflix_87
+      - YouTube梦歌|Netflix_88
+      - YouTube梦歌|Netflix_89
+      - YouTube梦歌|Netflix_90
   - name: 🎈 Failover
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -177,6 +339,60 @@ proxy-groups:
       - YouTube梦歌|Netflix_34
       - YouTube梦歌|Netflix_35
       - YouTube梦歌|Netflix_36
+      - YouTube梦歌|Netflix_37
+      - YouTube梦歌|Netflix_38
+      - YouTube梦歌|Netflix_39
+      - YouTube梦歌|Netflix_40
+      - YouTube梦歌|Netflix_41
+      - YouTube梦歌|Netflix_42
+      - YouTube梦歌|Netflix_43
+      - YouTube梦歌|Netflix_44
+      - YouTube梦歌|Netflix_45
+      - YouTube梦歌|Netflix_46
+      - YouTube梦歌|Netflix_47
+      - YouTube梦歌|Netflix_48
+      - YouTube梦歌|Netflix_49
+      - YouTube梦歌|Netflix_50
+      - YouTube梦歌|Netflix_51
+      - YouTube梦歌|Netflix_52
+      - YouTube梦歌|Netflix_53
+      - YouTube梦歌|Netflix_54
+      - YouTube梦歌|Netflix_55
+      - YouTube梦歌|Netflix_56
+      - YouTube梦歌|Netflix_57
+      - YouTube梦歌|Netflix_58
+      - YouTube梦歌|Netflix_59
+      - YouTube梦歌|Netflix_60
+      - YouTube梦歌|Netflix_61
+      - YouTube梦歌|Netflix_62
+      - YouTube梦歌|Netflix_63
+      - YouTube梦歌|Netflix_64
+      - YouTube梦歌|Netflix_65
+      - YouTube梦歌|Netflix_66
+      - YouTube梦歌|Netflix_67
+      - YouTube梦歌|Netflix_68
+      - YouTube梦歌|Netflix_69
+      - YouTube梦歌|Netflix_70
+      - YouTube梦歌|Netflix_71
+      - YouTube梦歌|Netflix_72
+      - YouTube梦歌|Netflix_73
+      - YouTube梦歌|Netflix_74
+      - YouTube梦歌|Netflix_75
+      - YouTube梦歌|Netflix_76
+      - YouTube梦歌|Netflix_77
+      - YouTube梦歌|Netflix_78
+      - YouTube梦歌|Netflix_79
+      - YouTube梦歌|Netflix_80
+      - YouTube梦歌|Netflix_81
+      - YouTube梦歌|Netflix_82
+      - YouTube梦歌|Netflix_83
+      - YouTube梦歌|Netflix_84
+      - YouTube梦歌|Netflix_85
+      - YouTube梦歌|Netflix_86
+      - YouTube梦歌|Netflix_87
+      - YouTube梦歌|Netflix_88
+      - YouTube梦歌|Netflix_89
+      - YouTube梦歌|Netflix_90
 rules:
  - DOMAIN-SUFFIX,digicert.com,🌐 Moon节点选择
  - DOMAIN,ocsp.comodoca.com,🌐 Moon节点选择
